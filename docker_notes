@@ -1,0 +1,29 @@
+# how to start docker container
+-> docker run [image:tag]
+parameters 
+    -> --name : define name for a container
+    -> --rm : remove container after it has been stoped
+    -> -p : this parameters will map the port of external machine to internal container ports
+    -> -v : this parameters will map the volume of external machine to internal container volume
+    -> -ti : run container in terminal  
+    -> -d : run container in detach 
+
+# how to stop a docker container
+-> docker stop [container_name/container_id]
+
+# how to check the running containers
+-> docker ps
+
+# how to check the all containers
+-> docker ps -a
+
+# how to start a stopped container
+-> docker start [container_id/container_id]
+
+# how to check current images in the system
+-> docker images
+
+
+
+
+
